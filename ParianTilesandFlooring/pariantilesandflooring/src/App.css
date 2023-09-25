@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+
+}
+
+.nav--logo {
+  max-height:180px;
+  max-width: 180px;
+}
+
+
+
+.navbar--gradient{
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+
+.maincard{
+    display: flex;
+    flex-direction: row;
+    font-size: 2.2rem;
+    
+}
+
+
+.white-box {
+  padding: 20px 20px; /* Add padding for spacing */
+  font-size: 10rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Add this CSS to your stylesheet or inline styles */
+.smaller-image {
+  max-width: 100%; /* Ensure the image does not exceed its container width */
+  height: auto;    /* Maintain the image's aspect ratio */
+}
+
+/* Media query to adjust image size for smaller screens */
+@media (max-width: 768px) {
+  .smaller-image {
+      max-width: 50%; /* Adjust the width as needed for smaller screens */
+  }
+}
+
+.image-container {
+  width: 20vw; /* Desired width */
+  height: 20vh; /* Desired height */
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-style: solid;
+}
+
