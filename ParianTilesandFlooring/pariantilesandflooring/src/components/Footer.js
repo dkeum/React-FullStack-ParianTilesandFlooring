@@ -12,7 +12,8 @@ const Footers = () => {
         <MDBContainer className="text-center text-md-left">
           <MDBRow>
             <MDBCol >
-              <h5 className="title mt-3">Contact us</h5>
+              <h5 className="title mt-1">Contact us</h5>
+              <p>Greater Vancouer Area</p>
             </MDBCol>
             <MDBCol >
               <h5 className="title mt-1">Phone Number</h5>

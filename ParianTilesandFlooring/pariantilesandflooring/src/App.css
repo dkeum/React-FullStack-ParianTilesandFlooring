@@ -65,7 +65,6 @@ nav {
     display: flex;
     flex-direction: row;
     font-size: 2.2rem;
-    
 }
 
 
@@ -103,4 +102,40 @@ nav {
   left: 0;
   border-style: solid;
 }
+
+
+/*for slider*/
+
+.slider {
+  margin:0 20px;
+  overflow:"hidden";
+  padding:2rem 0;
+}
+
+.slider img {
+  width: 11rem;
+  height:11rem;
+  border-radius:10px;
+}
+
+.react-multi-carousel-list{
+width: 70vw;
+height: auto;
+padding: 0rem 0 2rem 0;
+}
+
+
+
+/* Update the styles for the buttons */
+.custom-dot-list-style {
+  position: absolute;
+  bottom: 10px; /* Adjust the vertical position */
+  left: 0; /* Adjust the horizontal position */
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Ensure buttons are above the images */
+}
+
 
